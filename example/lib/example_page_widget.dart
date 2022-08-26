@@ -27,9 +27,8 @@ class ExamplePageWidget extends StatefulWidget {
         cardId: '4'),
   ];
 
-/*
   //Images from Network
-  List<PhotoCard> _photos = [
+  List<PhotoCard> photos = [
     PhotoCard(
       title: 'Sonu Sood',
       description: 'A man with million hearts.',
@@ -63,7 +62,7 @@ class ExamplePageWidget extends StatefulWidget {
       cardId: '4',
     ),
   ];
-*/
+
   @override
   _ExamplePageWidgetState createState() => _ExamplePageWidgetState();
 }
